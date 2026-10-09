@@ -1,3 +1,2 @@
 # security journey
-hello, this is a test run!
-
+In this repo I will be documenting my cyber security journey

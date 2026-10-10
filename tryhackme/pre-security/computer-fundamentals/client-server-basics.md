@@ -10,7 +10,6 @@ The client-server model and the concepts that make it work: client, server, prot
 - **DNS:** the Domain Name System is a protocol that translates human-readable domain names (like google.com) into the IP addresses (basically the location) of the websites the client wants to access.
 - **HTTP(S):** HTTP is a stateless client-server protocol used for the World Wide Web. Stateless means each request is processed independently, and the server doesn't retain information about previous requests. Even so, modern websites use a session identifier stored in a "cookie". If I log into my account and then move to another page, the cookie lets the site keep me logged in instead of making me authenticate again.
 - **HTTP vs. HTTPS:** HTTPS is a version of HTTP that encrypts the data being transferred, so people watching the network can't read it. HTTP is sent in plain text. (Observers can still usually see which server I connected to.)
-- **HTTP headers:** extra information sent along with a request or response, as `Name: value` pairs. Examples: `Host` (which site I'm asking for), `User-Agent` (which browser I'm using), `Cookie` (my session identifier, sent with each request), `Set-Cookie` (the server giving me a cookie), `Content-Type` (what kind of data came back).
 
 ## Hands-on
 In the room we ran an experiment that showed what a client request and a server response look like behind the scenes.

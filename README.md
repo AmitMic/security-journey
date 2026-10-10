@@ -9,7 +9,7 @@ write-ups in my own words, including the mistakes.
 | Date | Room | Write-up |
 |---|---|---|
 | 2026-10-10 | Computer Types | [Notes](tryhackme/pre-security/Computer-Fundamentals/Computer-types.md) |
-| 2026-10-10 | Client-Server basics | [Notes](tryhackme/pre-security/Computer-Fundamentals/Client-Server-Baics.md) |
+| 2026-10-10 | Client-Server basics | [Notes](tryhackme/pre-security/Computer-Fundamentals/Client-Server-baics.md) |
 
 ## Projects
 Coming soon: Python security tools.

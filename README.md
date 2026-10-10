@@ -17,7 +17,3 @@ TryHackMe: [my public profile](https://tryhackme.com/p/AmitMic)
 ## Projects
 
 Planned: Python port scanner
-
-## Note format
-
-Every note follows [the same template](templates/note-template.md).

@@ -10,6 +10,9 @@ write-ups in my own words, including the mistakes.
 |---|---|---|
 | 2026-10-10 | Computer Types | [Notes](tryhackme/pre-security/Computer-Fundamentals/Computer-types.md) |
 | 2026-10-10 | Client-Server basics | [Notes](tryhackme/pre-security/Computer-Fundamentals/client-server-basics.md) |
+| 2026-10-10 | Client-Server basics | [Notes](tryhackme/pre-security/Computer-Fundamentals/Virtualisation-basics.md) |
+
+
 
 ## Projects
 Coming soon: Python security tools.

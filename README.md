@@ -16,7 +16,7 @@ TryHackMe: [my public profile](https://tryhackme.com/p/AmitMic)
 
 ## Projects
 
-Coming soon: Python security tools.
+Planned: Python port scanner
 
 ## Note format
 

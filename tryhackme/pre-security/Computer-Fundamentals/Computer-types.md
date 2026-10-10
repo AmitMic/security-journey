@@ -1,6 +1,14 @@
 ## Computer Types
-- **Main idea:** Computers come in many forms (desktops, servers, phones,
-  embedded devices, etc.), each built for a different job.
-- **Biggest takeaway (my words):** Computers are used for much more things than we are able to see and they are everywhere, these helps us imagine the different ways people break into systems.
-- **Security angle:** Different types have different attack surfaces, e.g. for workstations an unauthorized USB insertion, local third party software etc...
-- **Connection to what I know:** Arduino boards are embedded devices.
+- **Main idea:** Computers come in many forms, each built for a different job:
+  - **Desktops:** meant to stay in one place and be used by one person.
+  - **Workstations:** more powerful desktops for demanding work.
+  - **Laptops / tablets / smartphones:** portable personal devices.
+  - **Servers:** provide services (like hosting a website) to many other computers (clients) over a network.
+  - **Embedded devices:** built into another device for a single purpose, e.g. an automatic door sensor.
+  - **IoT devices:** embedded devices connected to the internet, e.g. a smart thermostat.
+- **Biggest takeaway:** Computers are used for many more things than we notice. Every device that computes is a possible target, including things nobody thinks of as computers, like a smart thermostat or a car.
+- **Security angle:** Each type has a different attack surface.
+  - Desktops/laptops: unauthorized USB devices, malware, and software with unpatched vulnerabilities.
+  - Servers: open listening ports, misconfigured databases, exposed remote management interfaces.
+  - Embedded/IoT: often shipped with default passwords and rarely updated.
+- **Connection to what I know:** Arduino boards are embedded devices. Most run a single program flashed straight onto the chip, with no login or OS security. Someone with physical access can potentially read the firmware back off the chip. The data the board received earlier usually isn't stored, but anything hardcoded in the sketch is, such as Wi-Fi passwords or API keys on Wi-Fi boards. Some chips have lock bits that block reading the firmware, but many hobby projects don't enable them. Lesson: never hardcode secrets in firmware.

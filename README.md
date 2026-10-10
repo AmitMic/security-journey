@@ -15,4 +15,4 @@ write-ups in my own words, including the mistakes.
 
 
 ## Projects
-Coming soon: Python security tools.
+Planned: Python port scanner

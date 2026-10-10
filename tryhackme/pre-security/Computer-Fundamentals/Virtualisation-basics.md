@@ -42,7 +42,7 @@ many VMs on one machine. The benefits that matter most:
 
 ## Hands-on
 **In the room:** I used a VM manager, created VMs, and monitored the
-different machine states (list the states you saw here).
+different machine states (running, stopped, error).
 
 **Before the room:** I installed VirtualBox, set up Kali Linux, and
 practised navigating the filesystem and using the terminal.

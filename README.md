@@ -8,7 +8,7 @@ write-ups in my own words, including the mistakes.
 
 | Date | Room | Write-up |
 |---|---|---|
-| 2026-10-10 | Computer Types | [Notes](tryhackme/pre-security/Computer-types.md) |
+| 2026-10-10 | Computer Types | [Notes](tryhackme/pre-security/Computer-Fundamentals/Computer-types.md) |
 
 ## Projects
 Coming soon: Python security tools.
